@@ -1,0 +1,17 @@
+logging:
+  level:
+    org.springframework: DEBUG
+    org.aetins: DEBUG
+
+---
+spring:
+   main:
+     banner-mode: off
+---
+server:
+    port: 8888
+    
+---
+ip:
+ api:
+   url: http://ip-api.com/batch?fields=status,message,country
